@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiments",
+  "info": {
+    "name": "Experiments",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": true,
+    "populateCreatorFields": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usersPermissionsUser": {
+      "via": "experiments",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "experimentName": {
+      "type": "string"
+    },
+    "experimentLink": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

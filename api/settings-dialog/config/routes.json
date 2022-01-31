@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/settings-dialog",
+      "handler": "settings-dialog.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/settings-dialog/count",
+      "handler": "settings-dialog.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/settings-dialog/:id",
+      "handler": "settings-dialog.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/settings-dialog",
+      "handler": "settings-dialog.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/settings-dialog/:id",
+      "handler": "settings-dialog.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/settings-dialog/:id",
+      "handler": "settings-dialog.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiment_subject_lists",
+  "info": {
+    "name": "Experiment-Subject-List",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "experiment": {
+      "type": "string"
+    },
+    "guid": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "dateTime": {
+      "type": "datetime"
+    }
+  }
+}

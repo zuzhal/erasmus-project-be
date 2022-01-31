@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_experiment_setup_experiment_infos",
+  "info": {
+    "name": "experiment_info_dialog",
+    "icon": "info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subject": {
+      "type": "string",
+      "default": "0",
+      "unique": false,
+      "required": true
+    },
+    "setup": {
+      "type": "json"
+    },
+    "language": {
+      "type": "json"
+    }
+  }
+}

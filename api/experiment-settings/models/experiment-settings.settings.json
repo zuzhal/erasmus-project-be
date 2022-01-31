@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiment_settings",
+  "info": {
+    "name": "Experiment-settings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "expEnvSettings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "experiment-setup.experiment-settings",
+      "required": true
+    },
+    "experimentName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

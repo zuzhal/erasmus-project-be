@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/experiment-subject-lists",
+      "handler": "experiment-subject-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/experiment-subject-lists/count",
+      "handler": "experiment-subject-list.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/experiment-subject-lists/:id",
+      "handler": "experiment-subject-list.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/experiment-subject-lists",
+      "handler": "experiment-subject-list.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/experiment-subject-lists/:id",
+      "handler": "experiment-subject-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/experiment-subject-lists/:id",
+      "handler": "experiment-subject-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

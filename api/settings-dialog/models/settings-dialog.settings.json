@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "settings_dialog",
+  "info": {
+    "name": "Settings-dialog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false,
+    "draftAndPublish": true,
+    "populateCreatorFields": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "settingsDialog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experiment-setup.experiment-info"
+    },
+    "experimentName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/experiment-settings",
+      "handler": "experiment-settings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/experiment-settings/count",
+      "handler": "experiment-settings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/experiment-settings/:id",
+      "handler": "experiment-settings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/experiment-settings",
+      "handler": "experiment-settings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/experiment-settings/:id",
+      "handler": "experiment-settings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/experiment-settings/:id",
+      "handler": "experiment-settings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

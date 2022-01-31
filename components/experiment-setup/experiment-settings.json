@@ -1,0 +1,75 @@
+{
+  "collectionName": "components_experiment_setup_experiment_settings",
+  "info": {
+    "name": "experiment_env_settings",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "string",
+      "default": "200"
+    },
+    "fixationRadius": {
+      "type": "decimal"
+    },
+    "fixationLinewidth": {
+      "type": "decimal"
+    },
+    "fixationColorRest": {
+      "type": "string"
+    },
+    "fixationColorTask": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "titleHeight": {
+      "type": "decimal"
+    },
+    "instructionsColor": {
+      "type": "string"
+    },
+    "instructionsHeight": {
+      "type": "decimal"
+    },
+    "reportColor": {
+      "type": "string"
+    },
+    "stimulusColor": {
+      "type": "string"
+    },
+    "stimulusHeight": {
+      "type": "decimal"
+    },
+    "title": {
+      "type": "string"
+    },
+    "report": {
+      "type": "text"
+    },
+    "instructions": {
+      "type": "text"
+    },
+    "times": {
+      "type": "json"
+    },
+    "stimuliSet": {
+      "type": "json"
+    },
+    "ITISet": {
+      "type": "json"
+    },
+    "reportFontSize": {
+      "type": "decimal"
+    },
+    "blocks": {
+      "type": "integer"
+    },
+    "trials": {
+      "type": "integer"
+    }
+  }
+}

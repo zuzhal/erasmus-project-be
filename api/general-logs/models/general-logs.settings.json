@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "general_logs",
+  "info": {
+    "name": "General-logs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    },
+    "guid": {
+      "type": "string"
+    },
+    "dateTime": {
+      "type": "datetime"
+    },
+    "experiment": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    }
+  }
+}

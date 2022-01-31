@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_experiment_setup_experiment_parameters",
+  "info": {
+    "name": "Experiment_parameters",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "blocks": {
+      "type": "integer"
+    },
+    "tasks": {
+      "type": "integer"
+    },
+    "flip": {
+      "type": "boolean"
+    },
+    "sync_button": {
+      "type": "string"
+    },
+    "interface": {
+      "type": "string"
+    },
+    "key_mask": {
+      "type": "json"
+    },
+    "response_map": {
+      "type": "json"
+    }
+  }
+}
