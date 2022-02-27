@@ -1,3 +1,10 @@
 # Strapi application
 
-A quick description of your strapi application
+After cloning the application, run
+```
+npm run build
+```
+and for starting the server
+```
+npm run develop
+```
