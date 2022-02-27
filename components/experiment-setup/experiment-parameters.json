@@ -1,8 +1,9 @@
 {
   "collectionName": "components_experiment_setup_experiment_parameters",
   "info": {
-    "name": "Experiment_parameters",
-    "icon": "align-justify"
+    "name": "NOT USED - Experiment_parameters",
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
